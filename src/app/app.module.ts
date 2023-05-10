@@ -16,7 +16,6 @@ import { FooterComponent } from './componentes/footer/footer.component';
     AppComponent,
     NavigationComponent,
     HeroComponent,
-    AboutmeComponent,
     ProjectsComponent,
     SkillsComponent,
     ContactComponent,
