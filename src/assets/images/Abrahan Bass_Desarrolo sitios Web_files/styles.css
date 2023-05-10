@@ -1,0 +1,170 @@
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./src/styles.css?ngGlobalStyle ***!
+  \**********************************************************************************************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.habilidades .row div{
+  height: 250px;
+  background-color: #ff8300;
+  border: 1px solid firebrick;
+}
+
+/* proyectos */
+
+.proyectos-recientes{
+  padding: 150px;
+}
+ 
+
+.seccion-descripcion{
+font-size: 1.2rem;
+color: #929EAD; 
+}
+
+.proyectos-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 10px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ff8300;
+  margin-bottom: 0;
+}
+
+.proyecto {
+  position: relative;
+}
+.proyecto:hover img {
+  opacity: 0.2;
+}
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor{
+  display: flex;
+}
+
+.overlay i {
+  color: #554f4f;
+  font-size: 60px;
+  margin: 10px;
+}
+
+
+
+
+
+/*Adaptable (Responsive) */
+
+
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+  font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+  
+  .seccion-titulo {
+    font-size: 1.5rem;
+    text-align: center;
+   }
+  
+   .seccion-texto{
+    font-size: 1.2rem;
+   }
+
+   
+h1{
+  font-size: 1.5rem;
+}
+
+
+
+.hero h2 {
+  font-size: 0.9rem;
+  
+}
+
+.boton {
+ font-size: 10px; 
+}
+
+.seccion-descripcion{
+  font-size: 0.8rem;
+  text-align: center;
+  }
+
+
+  
+  .form {
+    margin-top: 30px;
+    padding: 30px;
+    
+  } 
+  .box-f {
+    margin-left: 40px;
+  }
+  .box-f .logos-f {
+    width: 60px;
+  }
+  
+  
+  .line {
+    margin-bottom: 150px;  
+  }
+
+
+
+ 
+ }
+
+
+
+@media screen and (max-width:450px) {
+  
+  }
+  
+
+
+
+
+  
+
+
+/*# sourceMappingURL=styles.css.map*/

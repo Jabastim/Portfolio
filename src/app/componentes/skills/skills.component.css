@@ -1,0 +1,42 @@
+.habilidades{
+  height: 70vh;
+  position: relative;
+  padding: 50px;
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+ background-blend-mode: screen;
+}
+
+.colorsA{
+  background-color: black;
+}
+.colorsMY{
+  background-color: rgb(98, 27, 149);
+}
+
+.seccion-titulo{
+  color: #686561;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 50px;
+  
+}
+
+.habilidades .for{
+  height: 20px;
+}
+
+@media screen and (max-width:412px){
+  .seccion-titulo{
+    margin-bottom: 60px;
+    font-size: 30px;
+    
+  }
+
+}
+
+@media screen and (max-width:767px){
+  .seccion-titulo{
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,115 @@
+
+/* Seccion Hero */
+.cabeza{
+  height: 100vh;
+  position: relative;
+}
+.caja-video  video{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.caja-video::after{
+  content: "";
+  background: rgba(0, 0, 0, 0.422);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.caja-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+h1 {
+  font-size: 80px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #f4f5f6;
+  font-weight: 400px;
+}
+ 
+h2 {
+  font-size: 40px;
+  color: #e36b1b;
+  font-weight: 300px;
+  
+}
+
+
+
+
+@media screen and (max-width: 412px) {
+ .cabeza{
+  height: 70vh;
+  position: relative;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #f4f5f6;
+  font-weight: 400px;
+}
+ 
+h2 {
+  font-size: 25px;
+  color: #e36b1b;
+  font-weight: 300px;
+  
+}
+.caja-info{
+  height: 80vh;
+}
+
+.caja-video::after{
+  height: 80vh;
+  
+}
+
+.caja-video  video{
+ 
+  height: 80vh;
+  
+}
+
+}
+
+@media screen and (max-width: 767px){
+
+  h1 {
+    font-size: 60px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #f4f5f6;
+    font-weight: 400px;
+  }
+   
+  h2 {
+    font-size: 30px;
+    color: #e36b1b;
+    font-weight: 300px;
+    
+  }
+}
+

@@ -1,0 +1,33 @@
+.edu{
+  position: relative;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  padding: 100px;
+}
+
+.skill{
+  color: #f4f5f6;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.red:hover{
+  transform: translateY(-3%);
+  box-shadow: 5px 50px 20px rgba(0, 0, 0, 0.30) ;
+}
+
+
+
+@media screen and (max-width:412px){
+  .skill{
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .skill{
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}

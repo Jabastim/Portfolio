@@ -1,0 +1,94 @@
+
+
+.navbar {
+  width: 100%;
+  background-color: #f4f5f6;
+  box-shadow: 0 4px 13px -4px rgba(0, 0, 0, 0.535);
+}
+
+.navbar-brand , img {
+  filter: invert(.2);
+  -webkit-filter: invert(.9); 
+  -moz-filter: invert(.2);
+    
+}
+
+
+
+/* navigation */
+
+button , .btn{
+  color: #554f4f;
+  background-color:#ff8300 ;
+}
+
+button , .btn:hover{
+  background-color:#554f4f;
+  color: #f5f6f7;
+}
+
+
+
+/* footer */
+.fond{
+  background-color: #f4f5f6;
+  position: fixed;
+  width: 100%;
+  height: 25%;
+  bottom: 0;
+}
+
+.box-f {
+  display: flex;
+  margin-left: 140px;
+  margin-top:5px;
+}
+
+
+.line {
+  width: 80%;
+  margin-top: 8px;
+  background-color: #ff8300;
+  height: 1px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-texto {
+  color: #9D9EA3;
+  margin-top: 80px;
+  text-align: center;
+ padding-bottom: 10px;
+}
+
+.perfil{
+  width: 70%;
+}
+
+.admin{
+  font-size: 1.3rem;
+ 
+}
+
+.link{
+  text-decoration: none;
+  color: #3b3838;
+}
+nav.vertical{
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+}
+
+li.vertical{
+  display: block;
+  margin: 0;
+  writing-mode: vertical;
+  padding: 1rem 0rem;
+  
+}
+
+a, a:hover{
+  text-decoration: none;
+  color: #000000;
+}

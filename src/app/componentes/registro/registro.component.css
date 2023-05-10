@@ -1,0 +1,93 @@
+
+/* contacto */
+.logina{
+  height: 90vh;
+}
+
+form {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  left:0;
+  right: 0;
+  top: 70px;
+}
+.topi{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.topi img {
+  width: 70px;
+}
+.form {
+  min-width: 30%;
+  background-color: #f4f5f6;
+  border-radius: 12px;
+  box-shadow: 0 0 6px 0 #ff8300;
+  padding: 30px;
+  
+}
+
+.grup {
+  position: relative;
+  margin: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-align: justify;
+  color: #3b3838;
+  margin: 0px;
+  font-size: 1rem;
+}
+input {
+  margin-bottom: 0;
+  border: 1px solid #e0e0e0;
+   border-radius: 12px;
+   font-size: 20px;
+   width: 100%;
+   margin-top: 0px;
+}
+textarea {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  font: inherit;
+}
+ 
+
+.box-f ,img {
+  filter: invert(.2);
+  -webkit-filter: invert(.2); 
+  -moz-filter: invert(.2)
+}
+
+
+
+
+
+/*Adaptable (Responsive) */
+
+
+
+@media screen and (max-width: 400px) {
+  
+}
+ 
+
+
+
+@media screen and (max-width:450px) {
+  
+  }
+  
+
+
+
+
+  
